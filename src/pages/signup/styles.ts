@@ -38,6 +38,12 @@ export const Login = styled.div`
     }
   }
 `;
+
+export const CreateAccount = styled.h1`
+  color: var(--white);
+  padding-bottom: 1rem;
+`;
+
 export const Form = styled.form`
   width: 90%;
   display: flex;

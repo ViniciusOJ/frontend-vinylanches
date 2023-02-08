@@ -6,6 +6,8 @@ import Logo from "../../public/logo.svg";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/Button/index";
 
+import Link from "next/link";
+
 export default function Home() {
   return (
     <>
@@ -22,9 +24,7 @@ export default function Home() {
               Acessar
             </Button>
           </Styled.Form>
-          <Styled.NotAccount>
-            Não possui uma conta? Cadastre-se
-          </Styled.NotAccount>
+          <Link href="/signup">Não possui uma conta? Cadastre-se</Link>
         </Styled.Login>
       </Styled.ContainerCenter>
     </>
